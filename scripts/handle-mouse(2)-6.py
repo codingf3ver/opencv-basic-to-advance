@@ -24,12 +24,12 @@ def mouse_events(event,x,y,flags,param):
             cv2.destroyWindow('color')
 
 
-           
-# img = np.zeros((720,1080,3),np.uint8)
-img = cv2.imread('../images/pic1.jpeg',1)
-cv2.imshow('image',img)
-points = []
-cv2.setMouseCallback('image',mouse_events)
+if __name__ == "__main__":         
+    # img = np.zeros((720,1080,3),np.uint8)
+    img = cv2.imread('../images/pic1.jpeg',1)
+    cv2.imshow('image',img)
+    points = []
+    cv2.setMouseCallback('image',mouse_events)
 
-if cv2.waitKey(0) & 0xFF == ord('q'):
-    cv2.destroyAllWindows()
+    if cv2.waitKey(0) & 0xFF == ord('q'):
+        cv2.destroyAllWindows()
