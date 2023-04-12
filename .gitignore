@@ -1,0 +1,9 @@
+# user defined
+
+venv/*
+images/*
+*.pyc
+*.jpeg
+*.mp4
+*.jpg
+
