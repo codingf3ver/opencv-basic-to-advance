@@ -7,4 +7,5 @@ images/*
 *.mp4
 *.jpg
 *.DS_Store
+*.gitignore
 
