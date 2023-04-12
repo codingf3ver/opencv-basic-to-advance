@@ -6,4 +6,5 @@ images/*
 *.jpeg
 *.mp4
 *.jpg
+*.DS_Store
 
