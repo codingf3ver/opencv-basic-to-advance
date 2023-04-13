@@ -10,6 +10,7 @@ def load_images():
     elif key == ord('s'):
         cv2.imwrite('images/pic2_copy.png',img)
         cv2.destroyAllWindows()
-        
+
 if __name__ == "__main__":
     load_images()
+    
